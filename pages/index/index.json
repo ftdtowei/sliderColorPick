@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "slider-color-picker":"../../components/sliderColorPicker/sliderColorPicker"
+    }
+}

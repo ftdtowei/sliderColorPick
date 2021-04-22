@@ -1,0 +1,13 @@
+<!--index.wxml-->
+  <view class="userinfo">
+    <block wx:if="{{canIUseOpenData}}" calss="userinfo-opendata">
+      <view class="userinfo-avatar" bindtap="bindViewTap">
+        <open-data type="userAvatarUrl"></open-data>
+      </view>
+      <open-data type="userNickName"></open-data>
+    </block>
+  </view>
+  <button style="background-color:{{color}};color:#ffffff;margin-top:50px">{{color}}</button>
+  <view class="usermotto">
+    <slider-color-picker bindmoveSlider="sliderColor"></slider-color-picker>
+  </view>

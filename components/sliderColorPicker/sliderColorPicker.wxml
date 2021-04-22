@@ -1,0 +1,3 @@
+<!--component/sliderColorPicker.wxml-->
+<canvas class='canvasSty' style='width: 100vw;height: 10vw' 
+canvas-id='slider' disable-scroll='true' bindtouchmove="moveSlider" ></canvas>
