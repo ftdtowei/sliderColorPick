@@ -4,7 +4,13 @@
 
 
   ## 组件演示
-
+  <img src="./utils/gif2.gif" width = "250"  alt="图片名称" align=center />
+  
+  <br/>
+  
+  <br/>
+  
+  <br/>
   <img src="./utils/gif.gif" width = "250"  alt="图片名称" align=center />
 
 
