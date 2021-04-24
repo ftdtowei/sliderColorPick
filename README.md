@@ -24,20 +24,38 @@
 
 
 
-
+组件属性
+~~~
+lineLength 色带的长度
+sliderBtn  滑动按钮的大小
+~~~
 
   当前为初期版本后续会继续更新
+
+  demo 接入方式  
   ``` json
-  index.json
-  {
-  "usingComponents": {
-    "slider-color-picker":"../../components/sliderColorPicker/sliderColorPicker"
-    }
+index.json
+{
+ "usingComponents": {
+   "slider-color-picker":"../../components/sliderColorPicker/sliderColorPicker"
+  }
 }   
 ```
   ``` html
-    index.html
+index.html
+    <slider-color-picker bindmoveSlider="sliderColor" lineLength = "300" sliderBtn="15"></slider-color-picker>
 
-  <slider-color-picker bindmoveSlider="sliderColor"></slider-color-picker>
 
   ```
+
+``` javaScript
+index.js
+
+ sliderColor(e) {
+    this.setData({
+      color:e.detail
+    })
+  }
+
+```
+
