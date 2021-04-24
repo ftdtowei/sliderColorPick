@@ -26,8 +26,9 @@
 
 组件属性
 ~~~
-lineLength 色带的长度
-sliderBtn  滑动按钮的大小
+必须设置 
+lineLength 色带的长度  建议 300
+sliderBtn  滑动按钮的大小 建议 12
 ~~~
 
   当前为初期版本后续会继续更新
@@ -43,7 +44,7 @@ index.json
 ```
   ``` html
 index.html
-    <slider-color-picker bindmoveSlider="sliderColor" lineLength = "300" sliderBtn="15"></slider-color-picker>
+    <slider-color-picker bindmoveSlider="sliderColor" lineLength = "300" sliderBtn="12"></slider-color-picker>
 
 
   ```
