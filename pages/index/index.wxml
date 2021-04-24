@@ -9,5 +9,5 @@
   </view>
   <button style="background-color:{{color}};color:#ffffff;margin-top:50px">{{color}}</button>
   <view class="usermotto">
-    <slider-color-picker bindmoveSlider="sliderColor"></slider-color-picker>
+    <slider-color-picker bindmoveSlider="sliderColor" lineLength = "300" sliderBtn="15"></slider-color-picker>
   </view>

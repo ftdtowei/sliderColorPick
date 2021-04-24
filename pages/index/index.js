@@ -4,7 +4,7 @@ const app = getApp()
 
 Page({
   data: {
-    color:"grey",
+    color:"#FF0000",
     motto: 'Hello World',
     userInfo: {},
     hasUserInfo: false,
